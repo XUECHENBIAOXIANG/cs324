@@ -1,0 +1,7 @@
+Part 1的代码在perceptron.py里，下面有main入口，直接运行即可，都是生成数据，训练，绘图对应效果，并打印accurary
+
+Part 2 和 Part 3 在Part 2文件夹的part2 and 3.ipynb文件夹。
+batch 这个参数为True时，是batch gradient descent，为False时是stochastic gradient descent（默认值为True）
+batch_size 是batch gradient descent的batch size，只有在batch为True时才有意义（默认值为1）
+像Part2 里的readme就可以直接跑
+python train_mlp_numpy.py --dnn_hidden_units 20 --learning_rate 0.01 --max_steps 1500 --eval_freq 10
